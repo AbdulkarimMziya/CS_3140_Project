@@ -8,7 +8,7 @@
 
 int main()
 {
-    // Focused tests for FoodItem and MealEntry
+    // Tests for FoodItem and MealEntry
     FoodItem apple(1, "Apple", 52.0, 1.0); // 52 kcal
     FoodItem banana(2, "Banana", 89.0, 0.5); // 44.5 kcal
 
