@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/my_test.dir/test/my_test.cpp.o -o my_test  libapp_lib.a lib/libgtest_main.a lib/libgtest.a

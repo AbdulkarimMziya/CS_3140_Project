@@ -1,0 +1,35 @@
+Start testing: Nov 28 11:17 PST
+----------------------------------------------------------
+1/1 Testing: unit_tests
+1/1 Test: unit_tests
+Command: "/Users/a.k.mziya/CLionProjects/CS_3140_Project/build/my_test"
+Directory: /Users/a.k.mziya/CLionProjects/CS_3140_Project/build
+"unit_tests" start time: Nov 28 11:17 PST
+Output:
+----------------------------------------------------------
+Running main() from /Users/a.k.mziya/CLionProjects/CS_3140_Project/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 2 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from MealEntryTest
+[ RUN      ] MealEntryTest.CalculatesTotalAndSummary
+[       OK ] MealEntryTest.CalculatesTotalAndSummary (0 ms)
+[----------] 1 test from MealEntryTest (0 ms total)
+
+[----------] 1 test from NotificationTest
+[ RUN      ] NotificationTest.AddsNotificationWhenCaloriesExceeded
+[Notification] Alert: Calorie goal exceeded!
+[       OK ] NotificationTest.AddsNotificationWhenCaloriesExceeded (1 ms)
+[----------] 1 test from NotificationTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 2 test suites ran. (1 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.65 sec
+----------------------------------------------------------
+Test Passed.
+"unit_tests" end time: Nov 28 11:17 PST
+"unit_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 28 11:17 PST
