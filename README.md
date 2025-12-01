@@ -31,8 +31,8 @@ ASCII overview:
             │                         │
             ▼                         ▼
    ┌────────────────┐       ┌────────────────────────┐
-   │ UserRepository  │       │ LocalNutritionRepo     │
-   │ (users.txt)     │       │ (src/data/nutrition.csv)
+   │ UserRepository │       │ LocalNutritionRepo     │
+   │ (users.txt)    │       │ (src/data/nutrition.csv)
    └────────────────┘       └────────────────────────┘
 ```
 
