@@ -13,20 +13,20 @@ ASCII overview:
 ```md
 
             ┌───────────────────────┐
-            │     UI / `main.cpp`   │
+            │     UI / [main]       │
             └──────────┬────────────┘
                        │ calls
                        ▼
             ┌───────────────────────┐
             │ Services Layer        │
-            │ `UserService`         │
-            │ `MealService`         │
+            │ [UserService]         │
+            │ [MealService]         │
             └──────┬───────┬────────┘
                    │       │
                    ▼       ▼
      ┌─────────────────-┐  ┌──────────────────────┐
-     │ `RegularUser`    │  │     `MealEntry`      │
-     │ `FoodItem` (CSV) │  │     `Goal`           │
+     │ [RegularUser]    │  │     [MealEntry]      │
+     │ [FoodItem] (CSV) │  │     [Goal]           │
      └──────┬───────────┘  └─────────-┬───────────┘
             │                         │
             ▼                         ▼
